@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 53,
+          "version": 57,
           "minHeight": 740,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -706,6 +706,7 @@
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
                                       "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "text"
@@ -767,6 +768,7 @@
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
                                       "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "text"
@@ -830,6 +832,7 @@
                                       "hideCard": false,
                                       "parentColumnSpace": 6.04296875,
                                       "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
                                       "leftColumn": 22,
                                       "dynamicBindingPathList": [
                                         {
@@ -872,7 +875,6 @@
                                       "fontStyle": "",
                                       "textColor": "#38AFF4",
                                       "version": 1,
-                                      "shouldScroll": false,
                                       "parentId": "tpz8gunibh",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
@@ -889,6 +891,7 @@
                                       "hideCard": false,
                                       "parentColumnSpace": 11.40087890625,
                                       "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
                                       "leftColumn": 55,
                                       "dynamicBindingPathList": [
                                         {
@@ -1084,6 +1087,7 @@
                       "hideCard": false,
                       "parentColumnSpace": 12.15087890625,
                       "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [],
                       "text": "Latest Movies",

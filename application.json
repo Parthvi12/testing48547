@@ -5,12 +5,12 @@
   "color": "#C7F3F0",
   "icon": "joystick",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
-  "applicationVersion": 1,
+  "applicationVersion": 2,
   "isManualUpdate": false,
   "createdAt": {
     "seconds": 1635132853,

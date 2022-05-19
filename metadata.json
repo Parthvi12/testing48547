@@ -1,6 +1,12 @@
 {
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Movies"
+  ],
+  "publishedPageOrder": [
+    "Movies"
+  ],
   "publishedDefaultPageName": "Movies",
   "unpublishedDefaultPageName": "Movies",
   "invisibleActionFields": {
@@ -12,21 +18,6 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
-  },
-  "publishedTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": [
-      {
-        "permission": "read:themes",
-        "users": [
-          "anonymousUser"
-        ],
-        "groups": []
-      }
-    ]
   },
   "publishedLayoutmongoEscapedWidgets": {},
   "unpublishedLayoutmongoEscapedWidgets": {},

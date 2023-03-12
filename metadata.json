@@ -1,25 +1,5 @@
 {
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 4,
-  "pageOrder": [
-    "Movies"
-  ],
-  "publishedPageOrder": [
-    "Movies"
-  ],
-  "publishedDefaultPageName": "Movies",
-  "unpublishedDefaultPageName": "Movies",
-  "invisibleActionFields": {
-    "Movies_Api1": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Movies_JSObject1.run": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    }
-  },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {},
-  "fileFormatVersion": 2
+  "serverSchemaVersion": 6,
+  "fileFormatVersion": 4
 }

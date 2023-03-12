@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1120,
+          "bottomRow": 1100,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 58,
+          "version": 77,
           "minHeight": 740,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -56,7 +56,7 @@
                 {
                   "boxShadow": "none",
                   "widgetName": "Canvas3",
-                  "bottomRow": 1580,
+                  "bottomRow": 920,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
@@ -652,6 +652,7 @@
                                       "image": "https://image.tmdb.org/t/p/w500{{currentItem.poster_path}}",
                                       "rightColumn": 21,
                                       "objectFit": "contain",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "sfmy86qce0",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -722,6 +723,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 46,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "issxr8lhvh",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -761,8 +763,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "0.75rem",
-                                      "textStyle": "HEADING"
+                                      "textStyle": "HEADING",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -792,6 +796,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 39,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "isp8ipqtk1",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -831,8 +836,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "1.125rem",
-                                      "textStyle": "BODY"
+                                      "textStyle": "BODY",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -864,6 +871,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 63,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "hbqxudc4un",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -900,7 +908,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "0.75rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "0.75rem",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -932,6 +942,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 63,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "l5xtq7atl5",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -968,7 +979,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "0.75rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "0.75rem",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -993,6 +1006,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 62,
                                       "iconName": "plus",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "8mkzp7avvc",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -1050,6 +1064,7 @@
                               "labelTextSize": "0.875rem",
                               "backgroundColor": "white",
                               "rightColumn": 64,
+                              "dynamicHeight": "FIXED",
                               "widgetId": "z357yd0v8u",
                               "containerStyle": "card",
                               "isVisible": true,
@@ -1057,7 +1072,9 @@
                               "parentId": "vwlkwnzwym",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "borderRadius": "0px"
+                              "borderRadius": "0px",
+                              "maxDynamicHeight": 9000,
+                              "minDynamicHeight": 4
                             }
                           ],
                           "key": "s7k1y51wxn",
@@ -1075,12 +1092,7 @@
                         }
                       ],
                       "privateWidgets": {
-                        "Image1": true,
-                        "Text1": true,
-                        "Text2": true,
-                        "Text4": true,
-                        "Text5": true,
-                        "IconButton1": true
+                        "undefined": true
                       },
                       "key": "1otwum12hj",
                       "labelTextSize": "0.875rem",
@@ -1117,11 +1129,13 @@
                       ],
                       "leftColumn": 54,
                       "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
                       "isDisabled": false,
                       "key": "hi3h4apdyu",
                       "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "onChange": "",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "l6nzwrino4",
                       "accentColor": "#03B365",
                       "isVisible": true,
@@ -1131,7 +1145,9 @@
                       "parentId": "hdo11bz4yi",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "0px"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1159,6 +1175,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 14.222222222222223,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "yy8ufvnmdl",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -1168,7 +1185,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.125rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.125rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "labelTextSize": "0.875rem",
@@ -1195,6 +1214,7 @@
               "labelTextSize": "0.875rem",
               "backgroundColor": "{{Switch1.isSwitchedOn? \"#404040\" : \"#F0F0F0\"}}",
               "rightColumn": 50,
+              "dynamicHeight": "FIXED",
               "widgetId": "79xx2uzbex",
               "containerStyle": "card",
               "isVisible": true,
@@ -1202,7 +1222,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0px"
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
@@ -1218,23 +1240,7 @@
             }
           ]
         ],
-        "widgetNames": [
-          "Canvas1",
-          "Canvas2",
-          "Canvas3",
-          "Container1",
-          "Container2",
-          "IconButton1",
-          "Image1",
-          "List1",
-          "MainContainer",
-          "Switch1",
-          "Text1",
-          "Text2",
-          "Text3",
-          "Text4",
-          "Text5"
-        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Movies",
         "deleted": false,
@@ -1247,6 +1253,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "617625b5515e45415cc7fca9_61c433bbe89bc475f3cba6c8"
 }

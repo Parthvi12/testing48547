@@ -16,6 +16,7 @@
   "publishedAppLayout": {
     "type": "FLUID"
   },
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "applicationVersion": 2,
   "isManualUpdate": false,

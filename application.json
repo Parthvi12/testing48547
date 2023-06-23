@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Customer messaging",
+      "isDefault": false
+    },
+    {
       "id": "Movies",
       "isDefault": true
     }
@@ -8,16 +12,17 @@
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
-  "color": "#C7F3F0",
-  "icon": "joystick",
+  "color": "#FFEFDB",
+  "icon": "hospital",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
   "deleted": false

@@ -1,0 +1,21 @@
+{
+    "widgetName": "MainContainer",
+    "backgroundColor": "none",
+    "rightColumn": 1160,
+    "snapColumns": 64,
+    "detachFromLayout": true,
+    "widgetId": "0",
+    "topRow": 0,
+    "bottomRow": 1100,
+    "containerStyle": "none",
+    "snapRows": 125,
+    "parentRowSpace": 1,
+    "type": "CANVAS_WIDGET",
+    "canExtend": true,
+    "version": 80,
+    "minHeight": 740,
+    "parentColumnSpace": 1,
+    "dynamicTriggerPathList": [],
+    "dynamicBindingPathList": [],
+    "leftColumn": 0
+}

@@ -48,7 +48,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2021-10-25T03:38:11Z"
   },
   "id": "Movies_Api1",
   "deleted": false,

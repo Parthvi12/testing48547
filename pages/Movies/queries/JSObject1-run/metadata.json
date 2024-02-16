@@ -37,7 +37,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2021-10-25T16:10:43Z"
   },
   "id": "Movies_JSObject1.run",
   "deleted": false,
